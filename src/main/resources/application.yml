@@ -1,0 +1,5 @@
+# Jdbc properties
+spring.datasource:
+  url: jdbc:mysql://localhost:3306/spring_boot_thymeleaf_demo?Timezone=UTC&useSSL=false
+  username: root
+  password: password
