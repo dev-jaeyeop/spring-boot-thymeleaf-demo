@@ -1,4 +1,4 @@
-create database spring_boot_thymeleaf_demo;
+create database spring_boot_thymeleaf_demo CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
 use spring_boot_thymeleaf_demo;
 
 CREATE TABLE employee
