@@ -23,7 +23,7 @@
     <p class="h4 mb-4">Save Employee</p>
 
     <form action="#" method="POST" th:action="@{/employees/save}" th:object="${employee}">
-        <input type="hidden" th:field="*{id}">
+        <input th:field="*{id}" type="hidden">
         <input class="form-control mb-4 col-4" placeholder="First name" th:field="*{firstName}" type="text">
         <input class="form-control mb-4 col-4" placeholder="Last name" th:field="*{lastName}" type="text">
         <input class="form-control mb-4 col-4" placeholder="Email" th:field="*{email}" type="text">
